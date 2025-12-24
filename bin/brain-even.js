@@ -1,5 +1,9 @@
 #!/usr/bin/env node
 
-import { playEvenGame } from './src/cli.js'
+import { runGame } from './src/index.js'
+import { playEvenGame } from './src/games/playEvenGame.js'
 
-playEvenGame()
+runGame({
+  gameDescription: 'Answer "yes" if the number is even, otherwise answer "no".',
+  generateRound: playEvenGame,
+})
