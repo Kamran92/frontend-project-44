@@ -9,3 +9,6 @@
 
 ### brain-calc.js:
 [![asciicast](https://asciinema.org/a/sjp8f1LGg0O5t66vdNfQOT7ZY.svg)](https://asciinema.org/a/sjp8f1LGg0O5t66vdNfQOT7ZY)
+
+### brain-gcd.js:
+[![asciicast](https://asciinema.org/a/2c64TCH07C43mtbx6nUgjUSw3.svg)](https://asciinema.org/a/2c64TCH07C43mtbx6nUgjUSw3)
