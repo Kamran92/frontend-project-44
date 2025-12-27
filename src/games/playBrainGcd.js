@@ -1,4 +1,4 @@
-import { getRandomInRange } from '../index.js'
+import { getRandomInRange } from '../helpers/getRandomInRange.js'
 
 const getGcd = ({ num1, num2 }) => {
   while (num2) {
@@ -11,8 +11,8 @@ const getGcd = ({ num1, num2 }) => {
 }
 
 export const playBrainGcd = () => {
-  const num1 = getRandomInRange({ min: 1, max: 100 })
-  const num2 = getRandomInRange({ min: 1, max: 100 })
+  const num1 = getRandomInRange()
+  const num2 = getRandomInRange()
 
   const correctAnswer = getGcd({ num1, num2 })
 
