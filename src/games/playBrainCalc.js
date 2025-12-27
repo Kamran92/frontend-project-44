@@ -1,4 +1,4 @@
-import { getRandomInRange } from '../index.js'
+import { getRandomInRange } from '../helpers/getRandomInRange.js'
 
 export const playBrainCalc = () => {
   const operators = ['+', '-', '*']
